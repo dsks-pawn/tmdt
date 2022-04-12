@@ -1,0 +1,11 @@
+.add_cluster {
+    display: flex;
+}
+
+.add_cluster div {
+    padding-right: 5px;
+}
+
+.cursor {
+    cursor: pointer;
+}

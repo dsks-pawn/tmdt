@@ -1,0 +1,40 @@
+{
+  "name": "crawl-data-bds",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --max_old_space_size=160000 ./bin/www --exec babel-node",
+    "test": "nodemon-inspect ./bin/www --exec babel-node"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.9"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^1.31.0",
+    "connect-session-sequelize": "^6.0.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "eslint": "^5.2.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.38.1",
+    "tedious": "^3.0.1"
+  }
+}

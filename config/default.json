@@ -1,0 +1,13 @@
+{
+	"server": {
+		"host": "localhost",
+		"port": 8764
+	},
+	"sqlEcommerce": {
+		"dialect": "mssql",
+		"host": "10.9.2.67",
+		"database": "ecommerce_raw",
+		"user": "thanh.nguyen",
+		"password": "Acifl4VBVP"
+	}
+}
